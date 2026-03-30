@@ -1,5 +1,5 @@
 const colors = ["yellow", "green", "red"]
-let index = 0
+let index = -1
 
 function changeColor() {
     ++index;
