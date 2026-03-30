@@ -3,7 +3,7 @@ let index = 0
 
 function changeColor() {
     ++index;
-    document.getElementById("changeColorButton").style.backgroundColor = colors[index]
+    document.getElementById("changeColorButton").style.backgroundColor = colors[index % 3]
 }
     
 setInterval(function() {
